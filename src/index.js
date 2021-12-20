@@ -20,13 +20,20 @@ ReactDOM.render(
           <Route 
             path="/maps" 
             element={
-              <Blog title="Maps" />
+              <Post title="Maps" />
             } 
-          />
+          >
+            <Route
+              path=":mapone"
+              element={
+                <Post title="Map1" />
+              }
+            />
+          </Route>
           <Route 
             path="/history" 
             element={
-              <Blog title="History and Information" />
+              <Blog title="History and Information"/>
             } 
           />
           <Route 

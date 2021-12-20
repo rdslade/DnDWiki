@@ -5,7 +5,10 @@ import { Outlet } from "react-router-dom";
 class Blog extends React.Component{
     render() {
         return (
-            <h1>{this.props.title}</h1>
+            <div>
+                <h1>{this.props.title}</h1>
+                <Outlet />
+            </div>
         );
     }
 }
