@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/DnDWiki/static/css/main.3ec85baf.css",
-    "main.js": "/DnDWiki/static/js/main.d76220c8.js",
-    "static/media/grago.pdf": "/DnDWiki/static/media/grago.f9fa6f4bb8a911d97a42.pdf",
-    "static/media/voquar.pdf": "/DnDWiki/static/media/voquar.85c83f13a7de83dc3eb1.pdf",
-    "index.html": "/DnDWiki/index.html",
-    "main.3ec85baf.css.map": "/DnDWiki/static/css/main.3ec85baf.css.map",
-    "main.d76220c8.js.map": "/DnDWiki/static/js/main.d76220c8.js.map"
+    "main.css": "/dnd/home/static/css/main.26f5c1d6.css",
+    "main.js": "/dnd/home/static/js/main.2a10177f.js",
+    "static/media/grago.png": "/dnd/home/static/media/grago.82e941bdaa5851ff15ca.png",
+    "static/media/voquar.png": "/dnd/home/static/media/voquar.2f291c68a4897306c12e.png",
+    "index.html": "/dnd/home/index.html",
+    "main.26f5c1d6.css.map": "/dnd/home/static/css/main.26f5c1d6.css.map",
+    "main.2a10177f.js.map": "/dnd/home/static/js/main.2a10177f.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ec85baf.css",
-    "static/js/main.d76220c8.js"
+    "static/css/main.26f5c1d6.css",
+    "static/js/main.2a10177f.js"
   ]
 }
