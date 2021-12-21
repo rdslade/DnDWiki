@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DnDWiki/static/css/main.3ec85baf.css",
+    "main.js": "/DnDWiki/static/js/main.d76220c8.js",
+    "static/media/grago.pdf": "/DnDWiki/static/media/grago.f9fa6f4bb8a911d97a42.pdf",
+    "static/media/voquar.pdf": "/DnDWiki/static/media/voquar.85c83f13a7de83dc3eb1.pdf",
+    "index.html": "/DnDWiki/index.html",
+    "main.3ec85baf.css.map": "/DnDWiki/static/css/main.3ec85baf.css.map",
+    "main.d76220c8.js.map": "/DnDWiki/static/js/main.d76220c8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ec85baf.css",
+    "static/js/main.d76220c8.js"
+  ]
+}
