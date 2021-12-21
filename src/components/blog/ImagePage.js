@@ -5,9 +5,9 @@ const images = require.context('../../images', true);
 export default function ImagePage() {
     let params = useParams();
     try {
-        let image = images(`./${params.id}.pdf`);
+        let image = images(`./${params.id}.png`);
         return (
-            <embed src={image} width="500" height="375" type="application/pdf"></embed>
+            <img src={image} width="100%" />
         )
     } catch {
         return (

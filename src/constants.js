@@ -23,19 +23,19 @@ export const MAPS = [
 
 export const TOP_LEVEL_NAV = [
     {
-        "to": "/",
+        "to": "/dnd/home",
         "title": "Home"
     },
     {
-        "to": "/maps",
+        "to": "/dnd/maps",
         "title": "Maps"
     },
     {
-        "to": "/history",
+        "to": "/dnd/history",
         "title": "History/Information"
     },
     {
-        "to": "/resources",
+        "to": "/dnd/resources",
         "title": "Books/Scrolls"
     },
 ]

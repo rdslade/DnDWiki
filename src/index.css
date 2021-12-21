@@ -34,3 +34,8 @@ a:hover {
 .content {
   margin: 15px;
 }
+
+.navlink {
+  padding: 5;
+  text-decoration: underline;
+}
