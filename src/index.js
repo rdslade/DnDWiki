@@ -6,29 +6,26 @@ import {
   Navigation,
   Home,
   Blog,
+  ImagePage,
   Posts,
   Post,
 } from "./components";
+import {MAPS, TOP_LEVEL_NAV} from "./constants.js"
 
 ReactDOM.render(
   <div id="fullpage">
     <Router>
-      <Navigation />
-      <div id="content">
+      <Navigation links={TOP_LEVEL_NAV}/>
+      <div class="content">
         <Routes >
           <Route path="/" element={<Home />} />
           <Route 
             path="/maps" 
             element={
-              <Post title="Maps" />
+              <Blog title="Maps" base="maps" links={MAPS}/>
             } 
           >
-            <Route
-              path=":mapone"
-              element={
-                <Post title="Map1" />
-              }
-            />
+            <Route path=":id" element={<ImagePage />} />
           </Route>
           <Route 
             path="/history" 
