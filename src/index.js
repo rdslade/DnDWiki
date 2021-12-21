@@ -18,9 +18,9 @@ ReactDOM.render(
       <Navigation links={TOP_LEVEL_NAV}/>
       <div class="content">
         <Routes >
-          <Route path="/dnd/home" element={<Home />} />
+          <Route path="/DnDWiki/home" element={<Home />} />
           <Route 
-            path="/dnd/maps" 
+            path="/DnDWiki/maps" 
             element={
               <Blog title="Maps" base="maps" links={MAPS}/>
             } 
@@ -28,13 +28,13 @@ ReactDOM.render(
             <Route path=":id" element={<ImagePage />} />
           </Route>
           <Route 
-            path="/dnd/history" 
+            path="/DnDWiki/history" 
             element={
               <Blog title="History and Information"/>
             } 
           />
           <Route 
-            path="/dnd/resources" 
+            path="/DnDWiki/resources" 
             element={
               <Blog title="Scrolls and Books" />
             } 

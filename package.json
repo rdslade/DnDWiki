@@ -1,6 +1,6 @@
 {
   "name": "dnd-wiki",
-  "homepage": "https://rdslade.github.io/dnd/home/",
+  "homepage": "https://rdslade.github.io/DnDWiki/home/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
